@@ -1,0 +1,22 @@
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <EditTextPreference
+        android:capitalize="words"
+        android:defaultValue="4"
+        android:key="house_members"
+        android:maxLines="1"
+        android:selectAllOnFocus="true"
+        android:singleLine="true"
+        android:title="No of Household Members" />
+
+       <SwitchPreference
+        android:defaultValue="false"
+        android:key="paper_rec"
+        android:title="Do u Recycle Newspaper?" />
+
+    <SwitchPreference
+        android:defaultValue="false"
+        android:key="metal_rec"
+        android:title="Do u Recycle Tin/Alum?" />
+
+</PreferenceScreen>

@@ -1,0 +1,23 @@
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!-- A 'parent' preference, which enables/disables child preferences (below)
+         when checked/unchecked. -->
+    <EditTextPreference
+        android:capitalize="words"
+        android:defaultValue="3000"
+        android:key="elec_bill"
+        android:maxLines="1"
+        android:selectAllOnFocus="true"
+        android:singleLine="true"
+        android:title="Electricity Bill" />
+
+    <EditTextPreference
+        android:capitalize="words"
+        android:defaultValue="600"
+        android:key="gas_bill"
+        android:maxLines="1"
+        android:selectAllOnFocus="true"
+        android:singleLine="true"
+        android:title="Gas Bill" />
+
+</PreferenceScreen>

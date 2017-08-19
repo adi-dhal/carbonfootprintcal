@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/personal_cal"
+            android:icon="@drawable/ic_menu_camera"
+            android:title="Personal Carbon Cal" />
+        <item
+            android:id="@+id/ar_image"
+            android:icon="@drawable/ic_menu_gallery"
+            android:title="Know Your Surrounding" />
+        <item
+            android:id="@+id/gen_cal"
+            android:icon="@drawable/ic_menu_slideshow"
+            android:title="Generic Info" />
+        <item
+            android:id="@+id/about"
+            android:icon="@drawable/ic_menu_manage"
+            android:title="About" />
+        <item
+            android:id="@+id/nav_send"
+            android:icon="@drawable/ic_menu_send"
+            android:title="Archive" />
+    </group>
+
+</menu>
